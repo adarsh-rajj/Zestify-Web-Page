@@ -1,0 +1,585 @@
+body {
+    background: url(image/dimond-black.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-box {
+    background: url(image/dimond-black.avif);
+    /* background-color: black; */
+    height: 100px;
+}
+
+.nav-item a {
+    color: white;
+}
+
+.navbar-toggler {
+    background: url(image/hamburger.png);
+}
+
+.dinput {
+    height: 43px;
+    width: 73%;
+    border-radius: 27px;
+    border: 1px solid;
+}
+
+/* Top tier and trusted design */
+
+.parent {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.first {
+    height: 500px;
+    width: 50%;
+}
+
+.second {
+    width: 50%;
+}
+
+.first-first-img {
+    width: 50%;
+    height: 500px;
+    padding: 5px;
+}
+
+.first-second-img,
+.first-third-img {
+    width: 50%;
+    height: 250px;
+
+}
+
+
+.first-first-img img {
+    width: 100%;
+    height: 500px;
+    border-radius: 15px;
+}
+
+.first-second-img img,
+.first-third-img img {
+    width: 100%;
+    height: 250px;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+
+.first {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.top-btn-1 button,
+.top-btn-2 button {
+    padding: 9px 30px;
+    margin: 21px 5px;
+    border-radius: 41px;
+}
+
+.body-button-3 {
+    margin-top: 40px;
+}
+
+.body-button-3 button {
+    background: greenyellow;
+    border-radius: 32px;
+    font-weight: 400;
+}
+
+
+
+
+/* main body */
+
+.main-heading h1 {
+    font-size: 45px;
+}
+
+.main-heading p {
+    padding: 15px 0px;
+}
+
+
+/* slag */
+.slag {
+    display: flex;
+}
+
+.slag-img img {
+    border-radius: 50%;
+    position: relative;
+}
+
+/* provide best service */
+.box-6 {
+    width: 50%;
+}
+
+/* how its work */
+
+
+.work img {
+    border-radius: 26px;
+}
+
+.work{
+    background: url(image/black.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    border-radius: 26px;
+    border: 10px solid #101010;
+    
+}
+.how-img{
+    background: url(image/team.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    border-radius: 26px;
+    border: 10px solid #101010;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.video{
+    position: absolute;
+    right: -9px;
+    bottom: -7px;
+    border: 10px solid black;
+    border-radius: 47px;
+}
+
+
+
+/* ready to get  */
+.group-ready {
+    background: white;
+    border-radius: 26px;
+    padding: 0px 0px;
+    width: 84%;
+    height: 40px;
+    margin: 57px 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-group-ready button {
+    margin: 4px -4px 4px 245px;
+    border-radius: 17px;
+}
+
+.get-work {
+    position: relative;
+    top: 79px;
+}
+
+
+
+@media only screen and (max-width:992px) {
+    .box-2 {
+        flex-direction: column;
+    }
+
+    .half-1,
+    .half-2 {
+        width: 100%;
+    }
+
+    .card-box-4 {
+        flex-direction: column;
+    }
+
+    .main-heading {
+        margin-top: 23px;
+    }
+
+
+    .sec ul li a {
+        margin: 0 3px;
+    }
+
+    .main-body {
+        flex-direction: column;
+    }
+
+
+    .cont2 {
+        order: 3;
+    }
+
+    .cont4 {
+        order: 4;
+    }
+
+    .cont3 {
+        order: 5;
+    }
+
+    .cont5 {
+        order: 6;
+    }
+
+    /* Top tier and trusted design */
+    .parent {
+        height: 1000px;
+    }
+
+    .first,
+    .second {
+        width: 100%;
+        height: 500px;
+    }
+
+
+
+    .our-project-col,
+    .our-project-col-1 {
+        width: 100%;
+    }
+
+    /* provide best service */
+    .box-6 {
+        width: 60%;
+    }
+
+    /* how it work */
+
+
+    .project-card-1 {
+        font-size: 32px;
+        margin: 28px 7px;
+    }
+
+    /* our project */
+    .our-pro-1{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .our-pro-2{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+
+}
+
+@media only screen and (max-width: 768px) {
+    .card-box-11 {
+        margin: auto;
+        flex-direction: column;
+    }
+
+    .conte-2 {
+        display: none;
+
+    }
+
+    .con-last {
+        height: 150px;
+    }
+
+    .conte {
+        width: 100%;
+    }
+
+    .conte h1 {
+        font-size: 18px;
+    }
+
+    .logoicon {
+        margin-left: 30px;
+        margin-top: 12px;
+    }
+
+
+    /* slack */
+    .company-1 {
+        width: 50%;
+        text-align: center;
+    }
+
+    .company-1 h3,
+    .company-2 h3 {
+        font-size: 40px;
+    }
+
+    .company-2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* top and tier */
+    .parent {
+        height: 1000px;
+    }
+
+    .second {
+        margin: 56px 0px;
+    }
+
+    /* provide best service */
+    .box-6 {
+        width: 70%;
+    }
+
+    /* how it work */
+
+    .work h1 {
+        font-size: 38px;
+        margin: 6px 7px;
+    }
+
+    .project-card-1 {
+        font-size: 23px;
+        margin: 23px 7px;
+    }
+
+    .work-slag{
+        margin: 31px 7px;
+    }
+
+    .work-slag p {
+        font-size: 22px;
+    }
+
+}
+
+@media only screen and (max-width: 479px) {
+
+    .cont-project {
+        width: 100%;
+    }
+
+    .our-project-col {
+        width: 50%;
+    }
+
+    .our-project-col-1 {
+        width: 50%;
+    }
+
+    .our-project {
+        width: 50%;
+    }
+
+    .our-project-2 {
+        width: 50%;
+    }
+
+    /* main body */
+    .main-heading h1 {
+        font-size: 28px;
+    }
+
+    .main-heading p {
+        font-size: 9px;
+        padding: 0px;
+    }
+
+    .body-buton {
+        flex-direction: column;
+    }
+
+    .button-body,
+    .button-body-2 {
+        width: 100%;
+        margin: 10px;
+    }
+
+    .button-body-2 {
+        margin: 2px;
+    }
+
+    .button-body {
+        margin: 6px 0;
+    }
+
+    /* slack */
+    .company-1 h3,
+    .company-2 h3 {
+        font-size: 18px;
+    }
+
+    /* Top and trusted */
+    .second {
+        margin: 23px 0px;
+    }
+
+    .btton {
+        justify-content: left;
+    }
+
+    .top-btn-1,
+    .top-btn-2 {
+        width: 40%;
+    }
+
+    .top-btn-1 button {
+        padding: 5px 26px;
+        margin: 10px 10px;
+    }
+
+    .top-btn-2 button {
+        padding: 5px 24px;
+        margin: 10px 10px;
+    }
+
+    .body-button-3 {
+        margin: 21px 3px;
+    }
+
+    .body-button-3 button {
+        padding: 6px 22px;
+    }
+
+    /* provide best service */
+
+    .box-6 {
+        width: 100%;
+    }
+
+    .box-6 h1 {
+        font-size: 24px;
+    }
+
+    /* how it work */
+
+    .work h1 {
+        font-size: 26px;
+        margin: 4px 7px;
+    }
+
+    .project-card-1 {
+        font-size: 12px;
+    }
+
+    .work-slag p {
+        font-size: 8px;
+    }
+
+    .work-slag {
+        margin: 63px 10px;
+    }
+
+    /* get consulted */
+
+    .get-work {
+        height: 160px;
+    }
+
+    .get-work p {
+        text-align: center;
+    }
+
+    .get-work h2 {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .ready {
+        height: 112px;
+    }
+
+    .group-ready {
+        margin: 22px 0;
+        width: 100%;
+    }
+
+    .group-ready h6 {
+        font-size: 12px;
+        margin: 2px 8px;
+    }
+
+    /* last ready to get */
+
+    .get-work {
+        position: initial;
+    }
+
+
+    /* our project */
+    .our-pro h1{
+        font-size: 18px;
+    }
+    .our-pro p{
+        font-size: 12px;
+    }
+    .our-project-col{
+        width: 100%;
+    }
+    .our-project-col p{
+        font-size: 12px;
+        padding: 12px 0px;
+    }
+    .our-project-col h2{
+        font-size: 26px;
+    }
+    .cont-pro p{
+        font-size: 24px;
+    }
+    .our-project-col-1{
+        width: 100%;
+    }
+    .our-project{
+        width: 100%;
+    }
+    .our-project-2{
+        width: 100%;
+    }
+
+}
+
+@media only screen and (min-width: 479px) and (max-width: 767px) {
+    .work-slag {
+        margin: 50px 13px;
+    }
+
+    .ready {
+        height: 160px;
+    }
+
+    .group-ready {
+        width: 100%;
+    }
+
+    .group-ready h6 {
+        margin: 0 20px;
+    }
+
+    .get-work {
+        height: 200px;
+        position: initial;
+    }
+}
+
+@media only screen and (max-width:992) and (min-width: 768px) {
+    .work h1 {
+        font-size: 38px;
+        margin: 6px 7px;
+    }
+
+    .project-card-1 {
+        font-size: 23px;
+        margin: 23px 7px;
+    }
+
+    .work-slag{
+        margin: 31px 7px;
+    }
+
+    .work-slag p {
+        font-size: 22px;
+    }
+}
